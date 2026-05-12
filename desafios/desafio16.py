@@ -1,0 +1,11 @@
+print("| POSITIVO, NEGATIVO OU NEUTRO??????????????? |")
+print("-"*30)
+
+valor = int(input("Digite um valor: "))
+
+if valor > 0:
+    print("O valor é positivo!")
+elif valor < 0:
+    print("O valor é negativo!")
+else:
+    print("O valor é neutro!")
