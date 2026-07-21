@@ -22,7 +22,7 @@ if resposta == True:
     print("A resposta foi verdadeira")
 else:
     print("A resposta foi falsa")
-
+ 
 nome = "Paulo"
 if nome == "Fernando":
     print("Seu nome é fernando")
