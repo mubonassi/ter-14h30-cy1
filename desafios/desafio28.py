@@ -9,8 +9,8 @@ for i in range(2,valor+1,2):
     pares = pares + f"{i} "
 print(pares)
 
-print("| IMPARES |")
 impares = ""
+print("| IMPARES |")
 for i in range(1,valor+1,2):
-    impares += str(i) + " "
+    impares += f"{i} "
 print(impares)
