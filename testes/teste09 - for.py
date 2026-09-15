@@ -28,3 +28,20 @@ print("-- Fim da Repetição --")
 for i in range(5,26,5):
     print(f"{i}")
 print("-- Fim da Repetição --")
+
+#Outros tipos de repetição
+lista = ["A","B","C","D"]
+
+for item in lista:
+    print(item)
+
+print("-"*40)
+
+for item in ["a","b","c","d"]:
+    print(item)
+
+print("-"*40)
+
+palavra = "granola"
+for letra in palavra:
+    print(letra)
